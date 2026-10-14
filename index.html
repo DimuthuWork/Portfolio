@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dimuthu Ekanayaka | Cyber Security Undergraduate</title>
+  <meta name="description" content="Portfolio of Dimuthu Ekanayaka, a cyber security undergraduate." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <a href="#home" class="logo">DIMUTHU<span></span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <p class="eyebrow reveal">Cyber Security Undergraduate</p>
+      <!-- EDIT: your name / intro line -->
+      <h1 class="reveal">Dimuthu<br />Ekanayaka</h1>
+      <p class="hero-sub reveal">Learning how systems break, so I can help keep them secure.</p>
+      <a href="#projects" class="btn reveal">View Projects</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title reveal">About</h2>
+      <div class="about-grid">
+        <!-- EDIT: write your own bio here -->
+        <p class="reveal">
+          I'm a cyber security undergraduate passionate about ethical hacking,
+          network security and building a safer digital world. I enjoy learning
+          through hands-on labs, CTF challenges and real-world security projects.
+        </p>
+        <!-- EDIT: your skills -->
+        <ul class="tags reveal">
+          <li>Network Security</li>
+          <li>Ethical Hacking</li>
+          <li>Penetration Testing</li>
+          <li>Linux</li>
+          <li>Python</li>
+          <li>Web App Security</li>
+          <li>Digital Forensics</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS (loaded from projects.json) -->
+    <section id="projects" class="section">
+      <h2 class="section-title reveal">Projects</h2>
+      <div id="projectGrid" class="grid"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="section-title reveal">Let's work together</h2>
+      <p class="reveal contact-note">Open to internships and collaborations.</p>
+      <div class="contact-grid">
+        <div class="reveal">
+          <!-- EDIT: your email and social links -->
+          <a class="email" href="mailto:your@email.com">your@email.com</a>
+          <div class="socials">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <form id="contactForm" class="reveal">
+          <input type="text" id="name" placeholder="Your name" required />
+          <input type="email" id="email" placeholder="Your email" required />
+          <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Dimuthu Ekanayaka. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Network Vulnerability Scanner",
+    "description": "A Python tool that scans a network for open ports and common misconfigurations.",
+    "tools": ["Python", "Nmap", "Linux"],
+    "image": "",
+    "link": "https://github.com/"
+  },
+  {
+    "title": "Home Lab SOC Setup",
+    "description": "A virtual home lab for log collection, monitoring and basic incident detection.",
+    "tools": ["Wazuh", "VirtualBox", "Kali Linux"],
+    "image": "",
+    "link": "https://github.com/"
+  },
+  {
+    "title": "CTF Write-ups",
+    "description": "Step-by-step write-ups of Capture The Flag challenges across web, crypto and forensics.",
+    "tools": ["Burp Suite", "Wireshark", "Python"],
+    "image": "",
+    "link": "https://github.com/"
+  }
+]
